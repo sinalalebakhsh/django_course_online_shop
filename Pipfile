@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-allauth = "*"
+django-crispy-forms = "*"
+django-jalali-date = "*"
+django-rosetta = "*"
+environs = "*"
+marshmallow = "*"
+pillow = "*"
+psycopg2-binary = "*"
+cffi = "*"
+dj-email-url = "*"
+django-cache-url = "*"
+pyjwt = "*"
+python-dotenv = "*"
+python3-openid = "*"
+requests = "*"
+tzdata = "*"
+oauthlib = "*"
+defusedxml = "*"
+dj-database-url = "*"
+django-ckeditor = "*"
+requests-oauthlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
